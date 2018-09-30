@@ -7,14 +7,14 @@
  */
 namespace Training\Unit2\Controller\Adminhtml\Action;
 
-class Index extends \Magento\Framework\App\Action\Action
+class Index extends \Magento\Backend\App\Action
 {
     /**
      * Test action index
      */
     public function execute()
     {
-        $this->_redirect('catalog/category/edit/id/3');
+        $this->_redirect('catalog/category/view/id/3');
         //$this->getResponse()->appendBody("HELLO WORLD");
     }
     /**
