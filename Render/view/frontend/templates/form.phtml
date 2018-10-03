@@ -1,0 +1,15 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: olha
+ * Date: 03.10.18
+ * Time: 22:17
+ */
+$view = $block->getData('view_model')
+?>
+<div​>
+<form action="<?= $view->getSubmitUrl() ?>" method="post">
+        <input type="text" name="test_name">
+        <input type="submit">
+    </form​>
+</div​>
